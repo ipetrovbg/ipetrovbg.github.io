@@ -1,1 +1,1 @@
-###### # Example
+### <span style="color: #e24a4a;">#</span> Example

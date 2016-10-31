@@ -1,4 +1,4 @@
-###### View
+###### View + Model
 ```html
 <html ng-app="SimpleApp">
     <div ng-controlle="SimpleController">

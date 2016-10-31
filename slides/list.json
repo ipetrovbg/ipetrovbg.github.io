@@ -6,9 +6,20 @@
     [
         "what-give-us-angularjs.md",
         "databinding-out-of-the-box.md",
-        "what-is-databinding.md",
-        "databinding-example.md",
-        "databinding-view.md"
+        "angular-community.md",
+        "consistent-code.md"
+    ],
+    [
+        "special-words-in-angular.md",
+        "special-words-controllers.md",
+        "special-words-directives.md",
+        "special-words-factory.md",
+        "special-words-filters.md",
+        "special-words-modules.md",
+        "special-words-scope.md",
+        "special-words-services.md",
+        "special-words-two-way-data-binding.md",
+        "special-words-dependency-injection.md"
     ],
     [
         "controller.md",

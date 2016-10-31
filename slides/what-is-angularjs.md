@@ -4,4 +4,3 @@
 - Developed by Google
 - More powerful HTML
 - Applies an MVVM, MVC schema (Model, View, View-Model, Model, View, Controller)
-- or maybe MV* (Model, View, everything)
