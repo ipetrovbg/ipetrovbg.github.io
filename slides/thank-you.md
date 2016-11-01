@@ -1,5 +1,5 @@
-![Thank you!](http://m.memegen.com/ltnlfz.jpg)
+# Thank you!!!
 
 Link to slides:
 
-[dkundel.github.io/angular-presentation](https://dkundel.github.io/angular-presentation/)
+[https://ipetrovbg.github.io](https://ipetrovbg.github.io)
