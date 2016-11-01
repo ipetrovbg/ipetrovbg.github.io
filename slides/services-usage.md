@@ -1,9 +1,10 @@
 ##  Services Usage
 
 ```js
-app.controller('MyController', ['$scope','notify', function ($scope, notify) {
-   $scope.callNotify = function(msg) {
-     notify(msg);
-   };
- }])
+;(function(){
+  app.controller('MyController', ['notify', function (notify) {
+    var msg = "AngularJS is awesome!!!";
+    notify.make(msg);
+  }]);
+}());
 ```

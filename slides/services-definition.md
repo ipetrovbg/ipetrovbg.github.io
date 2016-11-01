@@ -1,16 +1,21 @@
 ##  Services Definition
 
 ```js
-var app = angular.module('myServiceModule', []);
+angular.module('myServiceModule', [])
+  .factory('notify', notify);
 
-app.factory('notify', ['$window', function(win) {
-   var msgs = [];
-   return function(msg) {
-     msgs.push(msg);
-     if (msgs.length == 3) {
-       win.alert(msgs.join("\n"));
-       msgs = [];
-     }
-   };
- }]);
+  notify.$inject = ['$window'];
+
+  function notify( win ){
+    var service = {
+      make: makeNotify
+    };
+
+    function makeNotify(msg) {
+        win.alert(msg);
+      }
+    };
+    return service;
+
+  }]);
 ```
